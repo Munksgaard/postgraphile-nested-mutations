@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "@graphile-contrib/pg-simplify-inflector": "^6.1.0",
+    "@graphile/operation-hooks": "^1.0.0",
     "@graphile/pg-pubsub": "^4.12.1",
     "postgraphile": "^4.12.3",
     "postgraphile-plugin-nested-mutations": "^1.1.0"
