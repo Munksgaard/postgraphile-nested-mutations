@@ -9,4 +9,4 @@ COPY package-lock.json .
 RUN npm install
 
 EXPOSE 5000
-ENTRYPOINT ["/project/node_modules/.bin/postgraphile", "-n", "0.0.0.0"]
+ENTRYPOINT ["/project/node_modules/.bin/postgraphile"]
